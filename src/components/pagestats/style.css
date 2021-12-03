@@ -1,0 +1,122 @@
+.user
+{
+    margin-top: 20vh;
+    color: #ffffff;
+    width: 45vw;
+}
+
+.mainPic
+{
+    width: 7.5vw;
+    float: left;
+    padding-left: 4.8vw;
+}
+
+.usernameText
+{
+    font-size: 4vw;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 14vw;
+}
+
+.userLevel
+{
+    text-align: left;
+    font-size: 1.2vw;
+    font-weight: 400;
+    margin-top: -1.5vh; 
+    margin-left: 14vw;
+}
+
+.userLevel span
+{
+    font-weight: 700;
+}
+
+.recentGames
+{
+    display: inline-block;
+    float: right;
+    width: 40vw;
+    height: 30vh;
+    margin-top: -10vh;
+    margin-right: 3vw;
+}
+
+.titleRecentGames > span
+{
+    display: flex;
+    color: #A090B0;
+    font-weight: 600;
+    font-size: 1.25vw;
+}
+
+.boxRecentGames
+{
+    width: 38vw;
+    height: 32vh;
+    background: rgba(9, 8, 10, 0.5);
+    border: 1px solid #4D4D4D;
+    box-sizing: border-box;
+    backdrop-filter: blur(50px);
+    border-radius: 36px;
+}
+
+.lanesRecentGames
+{
+    width: 50%;
+}
+
+.lanesRecentGames > span
+{
+    margin-top: 2vh;
+    display: inherit;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1vw;
+    font-weight: 700;
+}
+
+.pic
+{
+    margin-top: 1vh;
+    margin-left: 3vw;
+    text-align: left;
+    width: 5vw;
+}
+
+.pic2
+{
+    margin-left: 2vw;
+    width: 4vw;
+}
+
+.array
+{
+    margin-top: -25%;
+    margin-left: 50%;
+    width: 50%;
+    background-color: blue;
+}
+
+.laneText
+{
+    font-size: 1vw;
+    font-weight: 700;
+    display: inline;
+    color: #ffffff;
+    margin-left: 24%;
+}
+
+.laneText .laneNameTitle
+{
+    display: inline;
+}
+
+.laneText .laneNameJungl
+{
+    margin-left: 22%;
+}
+
+

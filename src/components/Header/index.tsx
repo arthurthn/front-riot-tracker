@@ -1,6 +1,8 @@
 import React from 'react';
 import './Header.css'
 import Logo from '../assets/logo/logo_bleu_complet.png'
+import {BrowserRouter as Router, Routes,Route,Link} from "react-router-dom";
+import Homepage from '../homepage';
 
 
 function Header() {
@@ -11,7 +13,7 @@ function Header() {
                 <div className="menuList">
                     <ul>
                         <li>
-                            <a href="#"><span>Accueil</span></a>
+                             <a href="#"><span>Accueil</span></a>
                         </li>
                         <li>
                             <a href="#">Classement</a>
