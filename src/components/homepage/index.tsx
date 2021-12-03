@@ -1,7 +1,5 @@
 import React , { useState }  from 'react';
-
 import './style.css';
-
 import backgroundImg from '../assets/images/page_accueil.jpg';
 import riotSVG from '../assets/images/riotGameSVG.svg';
 import SearchBar from './SearchBar';
@@ -9,7 +7,7 @@ import SearchBar from './SearchBar';
 
 
 
-function Body() {
+function Homepage() {
     return (
         <div className="background">
             <img src={backgroundImg} className="background-image"/>
@@ -41,4 +39,4 @@ function Body() {
 }
 
 
-export default Body;
+export default Homepage;
