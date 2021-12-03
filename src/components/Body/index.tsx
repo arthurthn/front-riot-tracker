@@ -1,8 +1,12 @@
-import React  from 'react'
+import React , { useState }  from 'react';
+
 import './style.css';
-import SearchBar from './SearchBar';
+
 import backgroundImg from '../assets/images/page_accueil.jpg';
 import riotSVG from '../assets/images/riotGameSVG.svg';
+import SearchBar from './SearchBar';
+
+
 
 
 function Body() {
@@ -14,7 +18,8 @@ function Body() {
                 <div className="mainMessage">
                   Show the world your <span>League of Legends skills</span>
                 </div>
-                <SearchBar />
+                <SearchBar/>
+
                 <div className="line">
                 </div>
                 <div className="line secondLine">
