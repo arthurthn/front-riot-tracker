@@ -1,15 +1,19 @@
 import React from 'react';
 import './Header.css'
+import '../Pages/StatePage/index'
 import Logo from '../assets/logo/logo_bleu_complet.png'
+import {BrowserRouter as  Router ,  Route } from 'react-router-dom';
 
 function Header() {
     return (
+        <Router>
         <div className="container">
             <div className="menuGeneral">
                 <img src={Logo} alt="Logo"/> 
                 <div className="menuList">
                     <ul>
                         <li>
+                            
                             <a href="#"><span>Accueil</span></a>
                         </li>
                         <li>
@@ -33,6 +37,7 @@ function Header() {
                 </div>
             </div> 
         </div>
+        </Router>
 
     );
 }
