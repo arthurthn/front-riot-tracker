@@ -1,0 +1,102 @@
+body
+{
+    overflow: hidden;
+}
+.background-image
+{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+
+.gradient{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 8.62%, rgba(0, 0, 0, 0.3) 59.66%), linear-gradient(180deg, rgba(0, 0, 0, 0) 8.62%, rgba(0, 0, 0, 0.85) 100%);
+}
+
+.bodyContainer
+{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.mainMessage
+{
+    margin-top: 28vh;
+    font-size: 4.25vw;
+    font-weight: 800;
+    color: #ffffff;
+}
+.mainMessage span
+{
+    color: #00B6CF;
+}
+
+.line
+{
+    display: inline-flex;
+    margin-top: 4vh;
+    width: 10vw;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.secondLine
+{
+    margin-left: 4vw;
+}
+
+
+.buttonOr
+{
+    color: #ffffff;
+    margin-top: -2.6vh;
+}
+
+.riotMenu
+{
+    width: 1.2vw;
+}
+
+.buttonSignIn
+{
+    width: 30vw;
+    margin: 0 auto;
+    margin-top: 2vh;
+    background: #00E0FF30;
+    border-radius: 17px;
+    padding: 1.2vh 0;
+}
+
+.buttonSignIn span
+{
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: #ffffff;
+    padding-left: 0.7vw;
+}
+
+.apostrophe
+{
+    font-size: 0.8vw;
+    color: #ffffff;
+}
+
+.numberOfPlayersTracked
+{
+    margin-top: 5vh;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 2vw;
+}
+
+.numberOfPlayersTracked span 
+{
+    font-weight: 800;
+}

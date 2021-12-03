@@ -7,8 +7,10 @@ body {
 .container
 {
     width: 100vw;
-    background-color: #2e2e2e;
     padding: 10px 0;
+    position : fixed;
+    top : 0;
+    left : 0;
 }
 
 .menuGeneral
@@ -56,6 +58,7 @@ body {
 
 .menuButtons button
 {
+    font-family: 'Poppins',sans-serif;
     font-size: 18px;
     font-weight: 600;
     border-radius: 15px;

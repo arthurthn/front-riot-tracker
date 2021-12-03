@@ -1,0 +1,50 @@
+
+.searchUsername
+{
+    font-size: 16px;
+    font-family: 'poppins', sans-serif;
+    width: 22vw;
+    padding: 1.25vh 1vw ;
+    border-radius: 17px;
+    background-color: #00000065;
+    border: none;
+    color: #ffffff;
+}
+
+.searchUsername:focus {
+    outline-width: 0;
+}
+
+.buttonEntrer
+{
+    border: none;
+    padding: 12px 37px;
+    background: #00B6CF;
+    border-radius: 17px;
+    margin-left: -4vw;
+}
+
+
+.buttonEntrer span
+{
+    margin-left: 0.5vw;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.buttonEntrer .whiteEye
+{
+    display: inline-block;
+    justify-content: center;
+}
+
+.searchImg
+{
+    width: 16px;
+}
+
+.lineSeperation
+{
+    border: 1000px #00000065;
+}
