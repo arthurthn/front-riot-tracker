@@ -17,7 +17,6 @@ function Homepage() {
                   Show the world your <span>League of Legends skills</span>
                 </div>
                 <SearchBar/>
-
                 <div className="line">
                 </div>
                 <div className="line secondLine">

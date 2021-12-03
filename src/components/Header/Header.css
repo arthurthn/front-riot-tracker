@@ -11,6 +11,8 @@ body {
     position : fixed;
     top : 0;
     left : 0;
+    background-color: #00000060;
+    backdrop-filter: blur(10px);
 }
 
 .menuGeneral

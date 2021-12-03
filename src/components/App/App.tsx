@@ -3,6 +3,7 @@ import './App.css';
 import {BrowserRouter as Router, Routes,Route,Link} from "react-router-dom";
 import Homepage from '../homepage'
 import Header from '../Header'
+import Pagestats from '../pagestats'
 
 // function App() {
   // return (
@@ -18,6 +19,7 @@ render(){
     <Router>
       <Routes>
         <Route path = "/" element= {<Homepage/>}/>
+        <Route path = "/classement" element= {<Pagestats/>}/>
         {/* <link to="body">
           <span>flkerjklgjklerjlgjklerjg</span>
         </link> */}
