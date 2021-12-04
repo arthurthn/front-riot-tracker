@@ -142,15 +142,50 @@
 {
     margin-left: 2.5vw;
     margin-top:1vh;
-    width: 75%;
-    background-color: red;
-    border-radius: 15px;
 }
 
 .emptyBar
 {
     padding: 0.5vw;
+    background-color: #360CAE;
+    width: 15vw;
+    border-radius: 15px;
+
 }
+
+.loadedBar
+{
+    margin-top: -1.8vh;
+    width: 5.4vw;
+    padding: 0.5vw;
+    background-color: #00B6CF;
+    border-radius: 15px;
+}
+.loadedBar > span
+{
+    position: absolute;
+    font-size: 0.9vw;
+    font-weight: 700;
+    margin-top: -10px;
+    margin-left: 4px;
+    color: #ffffff;
+}
+
+.winStats
+{
+    width: 7vw;
+    color: #A090B0;
+    text-align: center;
+    font-size: 0.9vw;
+    margin: 0 auto;
+    margin-top: -0.5vh;
+}
+
+.winStats span
+{
+    font-weight: 700;
+}
+
 
 
 /* 

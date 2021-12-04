@@ -43,7 +43,14 @@ function pagestats() {
                         <div className="winRateBar">
                             <div className="emptyBar">
                             </div>
-                            <div className="loadedBar"></div>
+                            <div className="loadedBar">
+                                <span>V</span>
+                            </div>
+                        </div>
+                        <div className="winStats">
+                            <p>Win ratio <span>.36%</span><br/>
+                            Dmg <span>10 730</span>
+                            <br/>Cs <span>146</span></p>
                         </div>
                     </div>
                 </div>
