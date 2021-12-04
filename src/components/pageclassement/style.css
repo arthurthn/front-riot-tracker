@@ -1,0 +1,229 @@
+.Tableau{
+    border: solid;
+    color: white;
+    border-radius: 36px;
+    
+}
+.ligne{
+    border:solid;
+    color:white;
+}
+.table{
+    color:white;
+}
+.user
+{
+    margin-top: 20vh;
+    color: #ffffff;
+    width: 45vw;
+}
+
+.mainPic
+{
+    width: 7.5vw;
+    float: left;
+    padding-left: 4.8vw;
+}
+
+.usernameText
+{
+    font-size: 4vw;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 14vw;
+}
+
+.userLevel
+{
+    text-align: left;
+    font-size: 1.2vw;
+    font-weight: 400;
+    margin-top: -1.5vh; 
+    margin-left: 14vw;
+}
+
+.userLevel span
+{
+    font-weight: 700;
+}
+
+.recentGames
+{
+    display: inline-block;
+    float: right;
+    width: 40vw;
+    height: 30vh;
+    margin-top: -10vh;
+    margin-right: 3vw;
+}
+
+.titleRecentGames > span
+{
+    display: flex;
+    color: #A090B0;
+    font-weight: 600;
+    font-size: 1.25vw;
+}
+
+.boxRecentGames
+{
+    width: 38vw;
+    height: 32vh;
+    background: rgba(9, 8, 10, 0.5);
+    border: 1px solid #4D4D4D;
+    box-sizing: border-box;
+    backdrop-filter: blur(50px);
+    border-radius: 36px;
+}
+
+.lanesRecentGames
+{
+    width: 50%;
+}
+
+.lanesRecentGames > span
+{
+    margin-top: 2vh;
+    display: inherit;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1vw;
+    font-weight: 700;
+}
+
+.pic
+{
+    margin-left: 12%;
+    margin-top: 1vh;
+    text-align: left;
+    width: 5vw;
+}
+
+.pic2
+{
+    width: 4vw;
+}
+
+.laneText
+{
+    font-size: 1vw;
+    font-weight: 700;
+    display: inline;
+    color: #ffffff;
+    margin-top: 0px;
+}
+
+
+.laneTopText
+{
+    width: 50%;
+}
+
+.laneTopText > .Toptitle
+{
+    margin-top: -1.25vh;
+    text-align: center;
+}
+
+.winRate
+{
+    font-size: 0.9vw;
+    font-weight: 700;
+    color: #838384;
+    text-align: center;
+}
+
+
+
+
+
+
+.array
+{
+    margin-top: -14.5%;
+    margin-left: 36.5%;
+    width: 50%;
+}
+
+.laneJunglText
+{
+    text-align: center;
+}
+
+.winRateBar
+{
+    margin-left: 2.5vw;
+    margin-top:1vh;
+}
+
+.emptyBar
+{
+    padding: 0.5vw;
+    background-color: #360CAE;
+    width: 15vw;
+    border-radius: 15px;
+
+}
+
+.loadedBar
+{
+    margin-top: -1.8vh;
+    width: 5.4vw;
+    padding: 0.5vw;
+    background-color: #00B6CF;
+    border-radius: 15px;
+}
+.loadedBar > span
+{
+    position: absolute;
+    font-size: 0.9vw;
+    font-weight: 700;
+    margin-top: -10px;
+    margin-left: 4px;
+    color: #ffffff;
+}
+
+.winStats
+{
+    width: 7vw;
+    color: #A090B0;
+    text-align: center;
+    font-size: 0.9vw;
+    margin: 0 auto;
+    margin-top: -0.5vh;
+}
+
+.winStats span
+{
+    font-weight: 700;
+}
+
+
+
+/* 
+.laneText .laneNameJungl
+{
+    margin-left: 27%; */ 
+/* } */
+
+/* 
+.cards {
+    margin-top: 25vh;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card {
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+    height: 180px;
+    display: grid;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 29px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+  }
+  .card-1 {
+    background: radial-gradient(#0f1010, #151515);
+  }   */
