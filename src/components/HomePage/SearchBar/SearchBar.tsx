@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './style.css';
+import './SearchBar.css';
 import WhiteEye from '../../assets/images/eye-white.png';
 
 const defaultFormData ={

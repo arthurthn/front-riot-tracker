@@ -184,10 +184,21 @@
 
 .mostUsedChamps
 {
-    width: 100px;
-    border: 1px #ffffff;
+    margin-top: -95%;
+    margin-left: 150%;
 }
 
+.lineVertical
+{
+    width: 1px;
+    height: 100px;
+    background-color: #C6A24C;
+}
+
+.lineHorizontal
+{
+    background-color: #C6A24C;
+}
 
 /* 
 .laneText .laneNameJungl

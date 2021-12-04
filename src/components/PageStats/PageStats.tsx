@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css';
+import './PageStats.css';
 import backgroundImg from '../assets/images/background_stats.jpg';
 import mainPic from '../assets/images/avatarMainPic.png';
 import pic1 from '../assets/images/lane_pic1.png';
@@ -52,7 +52,10 @@ function pagestats() {
                             Dmg <span>10 730</span>
                             <br/>Cs <span>146</span></p>
                         </div>
-                        <div className="mostUsedChamps"></div>
+                        <div className="mostUsedChamps">
+                            <div className="lineVertical"></div>
+                            <div className="lineHorizontal"></div>
+                        </div>
                     </div>
                 </div>
             </div>

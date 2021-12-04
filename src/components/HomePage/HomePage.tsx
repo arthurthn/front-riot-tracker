@@ -1,8 +1,8 @@
 import React , { useState }  from 'react';
-import './style.css';
+import './HomePage.css';
 import backgroundImg from '../assets/images/page_accueil.jpg';
 import riotSVG from '../assets/images/riotGameSVG.svg';
-import SearchBar from './SearchBar';
+import SearchBar from './SearchBar/SearchBar';
 
 
 

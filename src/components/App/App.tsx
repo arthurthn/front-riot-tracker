@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
 import {BrowserRouter as Router, Routes,Route,Link} from "react-router-dom";
-import Homepage from '../homepage'
-import Header from '../Header'
-import Pagestats from '../pagestats'
-import Pageclassement from '../pageclassement'
-import Pageconseils from '../pageconseils'
-import Pageabout from '../pageabout'
+import Homepage from '../HomePage/HomePage'
+import Header from '../Header/Header'
+import Pagestats from '../PageStats/PageStats'
+import Pageclassement from '../PageClassement/PageClassement'
+import Pageconseils from '../PageConseils/PageConseils'
+import Pageabout from '../PageAbout/PageAbout'
 
 // function App() {
   // return (
