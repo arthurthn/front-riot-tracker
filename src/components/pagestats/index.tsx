@@ -41,7 +41,9 @@ function pagestats() {
                             </div>
                         </div>
                         <div className="winRateBar">
-                            
+                            <div className="emptyBar">
+                            </div>
+                            <div className="loadedBar"></div>
                         </div>
                     </div>
                 </div>

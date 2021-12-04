@@ -140,8 +140,18 @@
 
 .winRateBar
 {
-
+    margin-left: 2.5vw;
+    margin-top:1vh;
+    width: 75%;
+    background-color: red;
+    border-radius: 15px;
 }
+
+.emptyBar
+{
+    padding: 0.5vw;
+}
+
 
 /* 
 .laneText .laneNameJungl
