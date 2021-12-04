@@ -1,3 +1,14 @@
+.containerComponent
+{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.row
+{
+    display: flex;
+    justify-content: space-between;
+}
 
 .user
 {
@@ -199,31 +210,3 @@
 {
     background-color: #C6A24C;
 }
-
-/* 
-.laneText .laneNameJungl
-{
-    margin-left: 27%; */ 
-/* } */
-
-/* 
-.cards {
-    margin-top: 25vh;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .card {
-    margin: 20px;
-    padding: 20px;
-    width: 400px;
-    height: 180px;
-    display: grid;
-    grid-template-rows: 20px 50px 1fr 50px;
-    border-radius: 29px;
-    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
-    transition: all 0.2s;
-  }
-  .card-1 {
-    background: radial-gradient(#0f1010, #151515);
-  }   */

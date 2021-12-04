@@ -1,3 +1,8 @@
+.containerRecentMatch
+{
+    margin-top: 3vh;
+}
+
 .titleRecentMatches
 {
     margin-top: 0px;
@@ -6,7 +11,7 @@
 {
     display: flex;
     flex-direction: column;
-    width: 55vw;
+    width: 50vw;
     height: 260px;
     background: rgba(9, 8, 10, 0.5);
     border: 1px solid #4D4D4D;

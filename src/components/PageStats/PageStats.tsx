@@ -2,7 +2,8 @@ import React from 'react';
 import './PageStats.css';
 import backgroundImg from '../assets/images/background_stats.jpg';
 import mainPic from '../assets/images/avatarMainPic.png';
-import LastGames from './LastGames/LastGames';
+// import LastGames from './LastGames/LastGames';
+import LastGames2 from './LastGames2/LastGames2';
 import SeasonRanks from './SeasonRanks/SeasonRanks';
 import RecentMatches from './RecentMatches/RecentMatches';
 
@@ -18,39 +19,16 @@ function pagestats() {
                 <div className="userLevel">Summoner level <span>399</span></div>
             </div>
         {/* <LastGames /> */}
-        <SeasonRanks />
-        <RecentMatches />
+        <div className="containerComponent">
+            <div className="row">
+                <SeasonRanks />
+                <LastGames2 />
+            </div>
+                <RecentMatches />
+        </div>
     </div>
     )
 }
 
-// function  pagestats() {
-//     return (
-//         <div>
-//       <div className="cards">
-//         <div className="card card-1">
-      
-//       <h2 className="card__title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-      
-//     </div>
-//     <div className="card card-1">
-      
-//       <h2 className="card__title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-      
-//     </div>
-//     <div className="card card-1">
-      
-//       <h2 className="card__title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-      
-//     </div>  
-//     <div className="card card-1">
-      
-//       <h2 className="card__title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-      
-//     </div>
-//         </div>
-//         </div>
-//     )
-// }
 
 export default pagestats;

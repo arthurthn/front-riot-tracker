@@ -10,7 +10,7 @@ function SeasonRanks() {
                 <span className= "boxTitle">
                     RANG DE LA SAISON
                 </span>
-                <div className="boxSeasonRank">
+                <div className="box">
                     <div className="championBox">
                         <img src={ChallengerPic}/>
                     </div>
