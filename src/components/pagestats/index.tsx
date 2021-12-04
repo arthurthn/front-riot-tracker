@@ -52,6 +52,7 @@ function pagestats() {
                             Dmg <span>10 730</span>
                             <br/>Cs <span>146</span></p>
                         </div>
+                        <div className="mostUsedChamps"></div>
                     </div>
                 </div>
             </div>
