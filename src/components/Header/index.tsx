@@ -13,7 +13,7 @@ function Header() {
                 <div className="menuList">
                     <ul>
                         <li>
-                             <a href="#"><span>Accueil</span></a>
+                            <a href="/"><span>Accueil</span></a>
                         </li>
                         <li>
                             <a href="#">Classement</a>

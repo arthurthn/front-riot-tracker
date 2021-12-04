@@ -1,3 +1,4 @@
+
 .user
 {
     margin-top: 20vh;
@@ -80,24 +81,15 @@
 
 .pic
 {
+    margin-left: 12%;
     margin-top: 1vh;
-    margin-left: 3vw;
     text-align: left;
     width: 5vw;
 }
 
 .pic2
 {
-    margin-left: 3vw;
     width: 4vw;
-}
-
-.array
-{
-    margin-top: -25%;
-    margin-left: 50%;
-    width: 50%;
-    background-color: blue;
 }
 
 .laneText
@@ -106,17 +98,75 @@
     font-weight: 700;
     display: inline;
     color: #ffffff;
-    margin-left: 23.75%;
+    margin-top: 0px;
 }
 
-.laneText .laneNameTitle
+
+.laneTopText
 {
-    display: inline;
+    width: 50%;
 }
 
+.laneTopText > .Toptitle
+{
+    margin-top: -1.25vh;
+    text-align: center;
+}
+
+.winRate
+{
+    font-size: 0.9vw;
+    font-weight: 700;
+    color: #838384;
+    text-align: center;
+}
+
+
+
+
+
+
+.array
+{
+    margin-top: -14.5%;
+    margin-left: 36.5%;
+    width: 50%;
+}
+
+.laneJunglText
+{
+    text-align: center;
+}
+
+.winRateBar
+{
+
+}
+
+/* 
 .laneText .laneNameJungl
 {
-    margin-left: 27.5%;
-}
+    margin-left: 27%; */ 
+/* } */
 
-
+/* 
+.cards {
+    margin-top: 25vh;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card {
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+    height: 180px;
+    display: grid;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 29px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+  }
+  .card-1 {
+    background: radial-gradient(#0f1010, #151515);
+  }   */

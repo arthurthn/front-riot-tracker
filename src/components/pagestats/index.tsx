@@ -26,21 +26,58 @@ function pagestats() {
                                 <img src={pic1} className ="pic"/>
                                 <img src={pic2} className ="pic pic2"/>
                                 <div className="laneText">
-                                    <div className="laneNameTitle">
-                                        Top
-                                    </div>
-                                    <div className="laneNameTitle laneNameJungl">Jungl</div>
+                                    <div className="laneTopText">
+                                        <div className="Toptitle">Top</div>
+                                        <div className="winRate">Win.58%</div>
+                                    </div>    
                                 </div>
-                            </div>
                         </div>
                         <div className="array">
-                            <span>poop</span>
+                            <div className="laneText">
+                                 <div className="laneJunglText">
+                                     <div className="Toptitle">Jungl</div>
+                                    <div className="winRate">Win.36%</div>
+                                </div>                     
+                            </div>
+                        </div>
+                        <div className="winRateBar">
+                            
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     )
 }
+
+// function  pagestats() {
+//     return (
+//         <div>
+//       <div className="cards">
+//         <div className="card card-1">
+      
+//       <h2 className="card__title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      
+//     </div>
+//     <div className="card card-1">
+      
+//       <h2 className="card__title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      
+//     </div>
+//     <div className="card card-1">
+      
+//       <h2 className="card__title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      
+//     </div>  
+//     <div className="card card-1">
+      
+//       <h2 className="card__title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+      
+//     </div>
+//         </div>
+//         </div>
+//     )
+// }
 
 export default pagestats;
