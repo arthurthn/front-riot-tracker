@@ -3,7 +3,7 @@ import './PageStats.css';
 import backgroundImg from '../assets/images/background_stats.jpg';
 import mainPic from '../assets/images/avatarMainPic.png';
 import LastGames from './LastGames/LastGames';
-
+import SeasonRanks from './SeasonRanks/SeasonRanks'
 
 
 function pagestats() {
@@ -17,6 +17,7 @@ function pagestats() {
                 <div className="userLevel">Summoner level <span>399</span></div>
             </div>
         <LastGames />
+        <SeasonRanks />
     </div>
     )
 }

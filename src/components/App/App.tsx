@@ -3,10 +3,10 @@ import './App.css';
 import {BrowserRouter as Router, Routes,Route,Link} from "react-router-dom";
 import Homepage from '../HomePage/HomePage'
 import Header from '../Header/Header'
-import Pagestats from '../PageStats/PageStats'
-import Pageclassement from '../PageClassement/PageClassement'
-import Pageconseils from '../PageConseils/PageConseils'
-import Pageabout from '../PageAbout/PageAbout'
+import PageStats from '../PageStats/PageStats'
+import PageClassement from '../PageClassement/PageClassement'
+import PageConseils from '../PageConseils/PageConseils'
+import PageAbout from '../PageAbout/PageAbout'
 
 // function App() {
   // return (
@@ -18,14 +18,14 @@ class App extends Component {
 render(){ 
     return (
     <div className= "App">
-    <Header/>
     <Router>
+    <Header/>
       <Routes>
         <Route path = "/" element= {<Homepage/>}/>
-        <Route path = "/classement" element= {<Pagestats/>}/>
-        <Route path = "/Statistiques" element= {<Pageclassement/>}/>
-        <Route path = "/Conseils" element= {<Pageconseils/>}/>
-        <Route path = "/About" element= {<Pageabout/>}/>
+        <Route path = "/classement" element= {<PageClassement/>}/>
+        <Route path = "/statistiques" element= {<PageStats/>}/>
+        <Route path = "/conseils" element= {<PageConseils/>}/>
+        <Route path = "/about" element= {<PageAbout/>}/>
         {/* <link to="body">
           <span>flkerjklgjklerjlgjklerjg</span>
         </link> */}
