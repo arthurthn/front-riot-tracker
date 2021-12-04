@@ -1,6 +1,6 @@
 import React from 'react';
 
-function pagestats() {
+function pageconseils() {
     return (
         
         <div>
@@ -9,4 +9,4 @@ function pagestats() {
     )
 }
 
-export default pagestats;
+export default pageconseils;

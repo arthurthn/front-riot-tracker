@@ -11,19 +11,19 @@ function Header() {
                 <div className="menuList">
                     <ul>
                         <li>
-                            <a href="#"><span>Accueil</span></a>
+                            <a href="/"><span>Accueil</span></a>
                         </li>
                         <li>
-                            <a href="#">Classement</a>
+                            <a href="/Classement">Classement</a>
                         </li>
                         <li>
-                            <a href="#">Statistiques</a>
+                            <a href="/Statistiques">Statistiques</a>
                         </li>
                         <li>
-                            <a href="#">Conseils</a>
+                            <a href="/Conseils">Conseils</a>
                         </li>
                         <li>
-                            <a href="#">À propos</a>
+                            <a href="/About">À propos</a>
                         </li>
                     </ul>
                     
