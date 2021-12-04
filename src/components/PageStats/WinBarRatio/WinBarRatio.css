@@ -1,0 +1,37 @@
+.barRatioContainer
+{
+    width: 15vw;
+
+}
+
+.Bar
+{
+    width: 100%;
+    height: 2.25vh;
+    border-radius: 15px;
+    background-color: #360CAE;
+}
+.Bar  span
+{
+    line-height: 20px;
+    font-size: 1vw;
+    font-weight: 700;
+    color: #ffffff;
+    position: absolute;
+}
+
+.barLosses
+{
+    margin-left: 36.25%;
+}
+
+.winBar > span
+{
+    margin-left: 1.5%;
+}
+
+.winBar
+{
+    width: 56%;
+    background-color: #00B6CF;
+}

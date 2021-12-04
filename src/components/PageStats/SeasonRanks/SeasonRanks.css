@@ -1,7 +1,95 @@
-.seasonRanks
+.containerPage
 {
-    font-size: 1.4vw;
+  width: 90vw;
+  margin: 0 auto; 
+  margin-top: 3vh; 
+}
+
+.boxTitle
+{
+    font-size: 1.2vw;
+    color: #ffffff;
+    font-weight: 600;
+    margin-left: 0px;
+}
+
+.boxSeasonRank
+{
+    display: flex;
+    width: 38vw;
+    height: 180px;
+    background: rgba(9, 8, 10, 0.5);
+    border: 1px solid #4D4D4D;
+    box-sizing: border-box;
+    backdrop-filter: blur(50px);
+    border-radius: 29px;
+}
+
+.championBox
+{
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 130px;
+    height: 75%;
+    background-color: #141314;
+    border-radius: 25px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.championBox > img
+{
+    margin-top: 15px;
+    width: 90px;
+}
+
+.classSolo
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+}
+
+.title
+{
+    margin-top: 2.5vh;
     color: #A090B0;
+}
+
+.className
+{
+    line-height: 1.4vw;
     font-weight: 700;
-    margin-top: 40px;
+    font-size: 1.6vw;
+    color: #ffffff;
+}
+
+.seasonWinStats
+{
+    line-height: 5vh;
+    font-weight: 700;
+}
+
+.winRecordSeason span
+{
+    color: #A090B0;
+}
+
+.winRatioText
+{
+    display: flex;
+}
+
+.winBarRatio 
+{
+    line-height: 20px;
+    margin-left: 1vw;
+    color: #A090B0;
+    font-size: 0.9vw;
+}
+
+.winBarRatio span
+{
+    font-size: 1vw;
+    font-weight: 700;
 }

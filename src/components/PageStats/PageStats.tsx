@@ -3,7 +3,8 @@ import './PageStats.css';
 import backgroundImg from '../assets/images/background_stats.jpg';
 import mainPic from '../assets/images/avatarMainPic.png';
 import LastGames from './LastGames/LastGames';
-import SeasonRanks from './SeasonRanks/SeasonRanks'
+import SeasonRanks from './SeasonRanks/SeasonRanks';
+import RecentMatches from './RecentMatches/RecentMatches';
 
 
 function pagestats() {
@@ -16,8 +17,9 @@ function pagestats() {
                 <div className="usernameText">Kimiri The Best</div>
                 <div className="userLevel">Summoner level <span>399</span></div>
             </div>
-        <LastGames />
+        {/* <LastGames /> */}
         <SeasonRanks />
+        <RecentMatches />
     </div>
     )
 }

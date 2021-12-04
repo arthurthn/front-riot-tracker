@@ -1,0 +1,71 @@
+.containerRecentMatches
+{
+    display: flex;
+    height: 80px;
+    width: 100%;
+}
+
+.containWidth
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3vh;
+    margin-left: 3vw;
+}
+
+.differentArrays
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vh;
+    margin-left: 3.5vw;
+
+}
+
+.aramTitle
+{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.6vw;
+    text-align: center;
+}
+
+.detailedRecentMatch
+{
+    text-align: center;
+    line-height: 12px;
+    color: #A090B0;
+    font-weight: 600;
+}
+
+.row
+{
+    margin-top: -6px;
+}
+
+.row2
+{
+    margin-top: -10px;
+}
+
+.winOrLossStat
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.winOrLossStat
+{
+    margin-top: -0.5vh;
+    margin-left: 1vw;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600;
+}
+
+.victoryStat
+{
+    color: #00B6CF;
+    font-weight: 700;
+    font-size: 1.5vw;
+}

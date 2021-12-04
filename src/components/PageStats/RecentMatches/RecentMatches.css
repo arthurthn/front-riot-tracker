@@ -1,0 +1,17 @@
+.titleRecentMatches
+{
+    margin-top: 0px;
+}
+.boxRecentMatches
+{
+    display: flex;
+    flex-direction: column;
+    width: 55vw;
+    height: 260px;
+    background: rgba(9, 8, 10, 0.5);
+    border: 1px solid #4D4D4D;
+    box-sizing: border-box;
+    backdrop-filter: blur(50px);
+    border-radius: 29px;
+    overflow-y: scroll;
+}
