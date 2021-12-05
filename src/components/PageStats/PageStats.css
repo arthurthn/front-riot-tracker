@@ -1,5 +1,7 @@
 .containerComponent
 {
+    display: flex;
+    flex-direction: column;
     width: 90%;
     margin: 0 auto;
 }
@@ -7,7 +9,6 @@
 .row
 {
     display: flex;
-    justify-content: space-between;
 }
 
 .user
@@ -44,169 +45,11 @@
 .userLevel span
 {
     font-weight: 700;
-}
-
-.recentGames
-{
-    display: inline-block;
-    float: right;
-    width: 40vw;
-    height: 30vh;
-    margin-top: -10vh;
-    margin-right: 3vw;
-}
-
-.titleRecentGames > span
-{
-    display: flex;
-    color: #A090B0;
-    font-weight: 600;
-    font-size: 1.25vw;
-}
-
-.boxRecentGames
-{
-    width: 38vw;
-    height: 260px;
-    background: rgba(9, 8, 10, 0.5);
-    border: 1px solid #4D4D4D;
-    box-sizing: border-box;
-    backdrop-filter: blur(50px);
-    border-radius: 36px;
-}
-
-.lanesRecentGames
-{
-    width: 50%;
-}
-
-.lanesRecentGames > span
-{
-    margin-top: 2vh;
-    display: inherit;
-    text-align: center;
-    color: #ffffff;
-    font-size: 1vw;
-    font-weight: 700;
-}
-
-.pic
-{
-    margin-left: 12%;
-    margin-top: 1vh;
-    text-align: left;
-    width: 5vw;
-}
-
-.pic2
-{
-    width: 4vw;
-}
-
-.laneText
-{
-    font-size: 1vw;
-    font-weight: 700;
-    display: inline;
-    color: #ffffff;
-    margin-top: 0px;
+    font-size: clamp(12px,2vw,40px);
 }
 
 
-.laneTopText
-{
-    width: 50%;
-}
-
-.laneTopText > .Toptitle
-{
-    margin-top: -1.25vh;
-    text-align: center;
-}
-
-.winRate
-{
-    font-size: 0.9vw;
-    font-weight: 700;
-    color: #838384;
-    text-align: center;
-}
 
 
-.array
-{
-    margin-top: -14.5%;
-    margin-left: 36.5%;
-    width: 50%;
-}
 
-.laneJunglText
-{
-    text-align: center;
-}
 
-.winRateBar
-{
-    margin-left: 2.5vw;
-    margin-top:1vh;
-}
-
-.emptyBar
-{
-    padding: 0.5vw;
-    background-color: #360CAE;
-    width: 15vw;
-    border-radius: 15px;
-
-}
-
-.loadedBar
-{
-    margin-top: -1.8vh;
-    width: 5.4vw;
-    padding: 0.5vw;
-    background-color: #00B6CF;
-    border-radius: 15px;
-}
-.loadedBar > span
-{
-    position: absolute;
-    font-size: 0.9vw;
-    font-weight: 700;
-    margin-top: -1vh;
-    margin-left: 4px;
-    color: #ffffff;
-}
-
-.winStats
-{
-    width: 7vw;
-    color: #A090B0;
-    text-align: center;
-    font-size: 0.9vw;
-    margin: 0 auto;
-    margin-top: -0.5vh;
-}
-
-.winStats span
-{
-    font-weight: 700;
-}
-
-.mostUsedChamps
-{
-    margin-top: -95%;
-    margin-left: 150%;
-}
-
-.lineVertical
-{
-    width: 1px;
-    height: 100px;
-    background-color: #C6A24C;
-}
-
-.lineHorizontal
-{
-    background-color: #C6A24C;
-}

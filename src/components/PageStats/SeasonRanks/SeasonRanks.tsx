@@ -11,7 +11,7 @@ function SeasonRanks() {
                     RANG DE LA SAISON
                 </span>
                 <div className="box">
-                    <div className="championBox">
+                    <div className="darkBox championBox">
                         <img src={ChallengerPic}/>
                     </div>
                     <div className="classSolo">

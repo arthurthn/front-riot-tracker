@@ -22,12 +22,12 @@ function RecentMatchesStats() {
                     <span className="detailedRecentMatch">2.54 KDA</span>
                 </div>
                 <div className="differentArrays">
-                    <div className="row">
+                    <div className="row row1">
                         <img src={image6}/>
                         <img src={image7}/>
                         <img src={image8}/>
                     </div>
-                    <div className="row2">
+                    <div className="row row2">
                         <img src={image9}/>
                         <img src={image10}/>
                         <img src={image11}/>

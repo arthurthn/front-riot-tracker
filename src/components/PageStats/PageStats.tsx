@@ -6,6 +6,7 @@ import mainPic from '../assets/images/avatarMainPic.png';
 import LastGames2 from './LastGames2/LastGames2';
 import SeasonRanks from './SeasonRanks/SeasonRanks';
 import RecentMatches from './RecentMatches/RecentMatches';
+import MostPlayedChampions from './MostPlayedChampions/MostPlayedChampions';
 
 
 function pagestats() {
@@ -18,15 +19,18 @@ function pagestats() {
                 <div className="usernameText">Kimiri The Best</div>
                 <div className="userLevel">Summoner level <span>399</span></div>
             </div>
-        {/* <LastGames /> */}
-        <div className="containerComponent">
-            <div className="row">
-                <SeasonRanks />
-                <LastGames2 />
+            {/* <LastGames /> */}
+            <div className="containerComponent">
+                <div className="row">
+                    <SeasonRanks />
+                    <LastGames2 />
+                </div>
+                <div className="row">
+                    <RecentMatches />
+                    <MostPlayedChampions />
+                </div>
             </div>
-                <RecentMatches />
         </div>
-    </div>
     )
 }
 
