@@ -8,12 +8,6 @@ import PageClassement from '../PageClassement/PageClassement'
 import PageConseils from '../PageConseils/PageConseils'
 import PageAbout from '../PageAbout/PageAbout'
 
-// function App() {
-  // return (
-  //   <div className="App">
-  //     <Header />
-  //     <Body/>
-  //   </div>
 class App extends Component {
 render(){ 
     return (
@@ -26,9 +20,6 @@ render(){
         <Route path = "/statistiques" element= {<PageStats/>}/>
         <Route path = "/conseils" element= {<PageConseils/>}/>
         <Route path = "/about" element= {<PageAbout/>}/>
-        {/* <link to="body">
-          <span>flkerjklgjklerjlgjklerjg</span>
-        </link> */}
       </Routes>
     </Router>
     </div>

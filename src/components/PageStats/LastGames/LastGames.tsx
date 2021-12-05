@@ -1,9 +1,9 @@
 import React from 'react';
-import './LastGames2.css';
+import './LastGames.css';
 import Top from '../../assets/images/lane_pic1.png'
 import Jungl from '../../assets/images/lane_pic2.png'
 
-function LastGames2() {
+function LastGames() {
     return(
         <div className="seasonRankContainer seasonLastGames">
             <div className= "boxTitle titleLastGames">
@@ -45,12 +45,11 @@ function LastGames2() {
                             <div className="gradientVerticalLines"></div>
                         </div>
                     </div>
-                        <div className="gradientCircles">
-                        </div>
+                    <div className="gradientCircles"></div>
                 </div>
             </div>
         </div>
     )
 }
 
-export default LastGames2;
+export default LastGames;

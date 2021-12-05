@@ -8,7 +8,6 @@ import castle4 from '../../assets/images/castle4.svg'
 function TeamStatAboveArray() {
     return (
         <div className="teamStats">
-{/* Blue Team */}
             <div className="aboveTheBox">
                 <div className="leftSide">
                     Equipe Bleue
@@ -30,10 +29,9 @@ function TeamStatAboveArray() {
                         <img src={castle4} className="imgRightSide"/>
                     </span>
                     <span className="rightSideText">10</span>
-                    </div>
                 </div>
-{/* Red Team */}
             </div>
+        </div>
     )
 }
 

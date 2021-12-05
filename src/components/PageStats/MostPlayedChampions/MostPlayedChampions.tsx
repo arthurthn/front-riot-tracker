@@ -19,33 +19,33 @@ function MostPlayedChampions() {
             <div className="box boxMostPlayedChampions">
                 <img src={sideChampionLine} />
                 <div className="imgContainerMostPlayed">
-                <div className="imgPlayedChampion">
+                    <div className="imgPlayedChampion">
                         <img src={Aatrox} className="championImage aatrox"/>
                         <span>Aatrox</span>
-                            <div className="textMostPlayed">
+                        <div className="textMostPlayed">
                             <img src={image26} className="ChampionImage"/>
                             <div className="trophySystem">
-                            <img src={MaskGroup} className="imgNumberOfTrophies"/><span>38 220</span>
+                                <img src={MaskGroup} className="imgNumberOfTrophies"/><span>38 220</span>
                             </div>  
                         </div>
-                     </div>
+                    </div>
                      <div className="imgPlayedChampion">
                         <img src={garen} className="championImage garen"/>
                         <span>Garen</span>
-                            <div className="textMostPlayed">
+                        <div className="textMostPlayed">
                             <img src={image25} className="ChampionImage middleChampionImage"/>
                             <div className="trophySystem">
-                            <img src={MaskGroup} className="imgNumberOfTrophies" /><span>20 140</span>
+                                <img src={MaskGroup} className="imgNumberOfTrophies" /><span>20 140</span>
                             </div>  
                         </div>
                      </div>
                      <div className="imgPlayedChampion">
                         <img src={LeeSin} className="championImage aatrox"/>
                         <span>Lee Sin</span>
-                            <div className="textMostPlayed">
+                        <div className="textMostPlayed">
                             <img src={image26} className="ChampionImage"/>
                             <div className="trophySystem">
-                            <img src={MaskGroup} className="imgNumberOfTrophies"/><span>50 860</span>
+                                <img src={MaskGroup} className="imgNumberOfTrophies"/><span>50 860</span>
                             </div>  
                         </div>
                      </div>

@@ -3,8 +3,8 @@
 {
     font-size: 16px;
     font-family: 'poppins', sans-serif;
-    width: 22vw;
-    padding: 1.25vh 1vw ;
+    width: 320px;
+    padding: 10px 10px ;
     border-radius: 17px;
     background-color: #00000065;
     border: none;
@@ -21,13 +21,13 @@
     padding: 12px 37px;
     background: #00B6CF;
     border-radius: 17px;
-    margin-left: -4vw;
+    margin-left: -60px;
 }
 
 
 .buttonEntrer span
 {
-    margin-left: 0.5vw;
+    margin-left: 10px;
     color: #ffffff;
     font-size: 16px;
     font-weight: 700;

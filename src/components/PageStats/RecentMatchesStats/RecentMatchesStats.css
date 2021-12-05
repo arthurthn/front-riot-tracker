@@ -9,24 +9,23 @@
 {
     display: flex;
     flex-direction: row;
-    margin-top: 3vh;
-    margin-left: 3vw;
+    margin-top: 15px;
+    margin-left: 25px;
 }
 
 .differentArrays
 {
     display: flex;
     flex-direction: column;
-    margin-top: 1vh;
-    margin-left: 3.5vw;
-
+    margin-top: 2px;
+    margin-left: 55px;
 }
 
 .aramTitle
 {
     color: #ffffff;
     font-weight: 700;
-    font-size: 1.6vw;
+    font-size: 24px;
     text-align: center;
 }
 
@@ -55,8 +54,7 @@
 
 .winOrLossStat
 {
-    margin-top: -0.5vh;
-    margin-left: 1vw;
+    margin-left: 12px;
     color: #ffffff;
     text-align: center;
     font-weight: 600;
@@ -66,5 +64,5 @@
 {
     color: #00B6CF;
     font-weight: 700;
-    font-size: 1.5vw;
+    font-size: 24px;
 }

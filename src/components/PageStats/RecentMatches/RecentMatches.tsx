@@ -5,7 +5,7 @@ import RecentMatchesStats from '../RecentMatchesStats/RecentMatchesStats'
 function RecentMatches() {
     return(
         <div className="containerRecentMatch">
-            <span className="boxTitle titleRecentMatches">MATCH RECENTS</span>
+            <span className="boxTitle titleRecentMatches">Match recent</span>
                 <div className="boxRecentMatches">
                     <RecentMatchesStats />
                     <RecentMatchesStats />

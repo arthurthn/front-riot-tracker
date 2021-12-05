@@ -4,7 +4,6 @@ import WhiteEye from '../../assets/images/eye-white.png';
 
 const defaultFormData ={
     pseudonyme:""
-    
   }
 
 // Stocker les infos
@@ -26,7 +25,7 @@ function SearchBar() {
     }
     return (
         <div className="interface">
-            <form onSubmit={onSubmit}>
+          <form onSubmit={onSubmit}>
             <input 
             type="text"
             id="pseudonyme"
@@ -41,7 +40,7 @@ function SearchBar() {
                 </div>
                 <span>Entrer</span>
             </button>
-            </form>
+          </form>
             <div className="lineSeperation"></div>
         </div>
     )

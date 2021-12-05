@@ -2,8 +2,7 @@ import React from 'react';
 import './PageStats.css';
 import backgroundImg from '../assets/images/background_stats.jpg';
 import mainPic from '../assets/images/avatarMainPic.png';
-// import LastGames from './LastGames/LastGames';
-import LastGames2 from './LastGames2/LastGames2';
+import LastGames from './LastGames/LastGames';
 import SeasonRanks from './SeasonRanks/SeasonRanks';
 import RecentMatches from './RecentMatches/RecentMatches';
 import MostPlayedChampions from './MostPlayedChampions/MostPlayedChampions';
@@ -19,11 +18,10 @@ function pagestats() {
                 <div className="usernameText">Kimiri The Best</div>
                 <div className="userLevel">Summoner level <span>399</span></div>
             </div>
-            {/* <LastGames /> */}
             <div className="containerComponent">
                 <div className="row">
                     <SeasonRanks />
-                    <LastGames2 />
+                    <LastGames />
                 </div>
                 <div className="row">
                     <RecentMatches />

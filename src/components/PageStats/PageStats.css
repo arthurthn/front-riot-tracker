@@ -2,7 +2,7 @@
 {
     top: 0;
     left: 0;
-    width: 100vw;
+    width: 120%;
 }
 
 .containerComponent
@@ -20,39 +20,38 @@
 
 .user
 {
-    margin-top: 17vh;
+    margin-top: 170px;
     color: #ffffff;
-    width: 45vw;
+    width: 800px;
 }
 
 .mainPic
 {
-    width: 7.5vw;
+    width: 104px;
     float: left;
-    padding-left: 4.8vw;
+    padding-left: 70px;
 }
 
 .usernameText
 {
-    font-size: 4vw;
+    font-size: 60px;
     font-weight: 700;
     text-align: left;
-    margin-left: 14vw;
+    margin-left: 200px;
 }
 
 .userLevel
 {
     text-align: left;
-    font-size: 1.2vw;
+    font-size: 20px;
     font-weight: 400;
-    margin-top: -1.5vh; 
-    margin-left: 14vw;
+    margin-top: -20px; 
+    margin-left: 205px;
 }
 
 .userLevel span
 {
     font-weight: 700;
-    font-size: clamp(12px,2vw,40px);
 }
 
 

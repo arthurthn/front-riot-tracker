@@ -2,7 +2,6 @@ import React from 'react';
 import './Header.css'
 import Logo from '../assets/logo/logo_bleu_complet.png'
 import {BrowserRouter as Router, Routes,Route,Link} from "react-router-dom";
-import Homepage from '../HomePage/HomePage';
 
 
 function Header() {

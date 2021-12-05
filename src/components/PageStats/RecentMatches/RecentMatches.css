@@ -1,17 +1,18 @@
 .containerRecentMatch
 {
-    margin-top: 3vh;
+    margin-top: 25px;
 }
 
 .titleRecentMatches
 {
     margin-top: 0px;
+    text-transform: uppercase;
 }
 .boxRecentMatches
 {
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    width: 715px;
     height: 260px;
     background: rgba(9, 8, 10, 0.5);
     border: 1px solid #4D4D4D;
