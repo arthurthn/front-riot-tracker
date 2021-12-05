@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component, useEffect, useState } from 'react';
 import './PageStats.css';
 import backgroundImg from '../assets/images/background_stats.jpg';
 import mainPic from '../assets/images/avatarMainPic.png';
@@ -6,9 +6,22 @@ import LastGames from './LastGames/LastGames';
 import SeasonRanks from './SeasonRanks/SeasonRanks';
 import RecentMatches from './RecentMatches/RecentMatches';
 import MostPlayedChampions from './MostPlayedChampions/MostPlayedChampions';
+import { getUserData, getLast10GamesStats } from '../../api';
 
+const PageStats = () => {
+    
+    const [userData, setUserData] = useState({})
 
-function pagestats() {
+    const fetchData = async () => {
+        const userData = await getUserData("Canettes de 86")
+        setUserData(userData)
+        console.log(userData)
+    }
+
+    useEffect(()=>{
+        fetchData()
+    },[])
+
     return (
         <div className="background-image">
             <img src={backgroundImg} className="background-image backgroundStats"/>
@@ -33,4 +46,4 @@ function pagestats() {
 }
 
 
-export default pagestats;
+export default PageStats;
