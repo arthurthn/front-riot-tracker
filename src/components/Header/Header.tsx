@@ -8,7 +8,7 @@ function Header() {
     return (
         <div className="container">
             <div className="menuGeneral">
-                <img src={Logo} alt="Logo"/> 
+                <Link to="/"><img src={Logo}/></Link> 
                 <div className="menuList">
                     <ul>
                         <li>
@@ -30,8 +30,12 @@ function Header() {
                     
                 </div>
                 <div className="menuButtons">
-                        <button className="ButtonInscription">Inscription</button>
+                <Link to="/register">
+                    <button className="ButtonInscription">Inscription</button>
+                </Link>
+                <Link to="/login">
                         <button className="ButtonConnexion">Connexion</button>
+                </Link>
                 </div>
             </div> 
         </div>

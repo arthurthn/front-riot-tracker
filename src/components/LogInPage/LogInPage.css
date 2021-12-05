@@ -1,0 +1,25 @@
+
+.signInContainer
+{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    color: white;
+}
+
+.columnSignIn
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.columnSignIn > span
+{
+    color: #888888;
+    font-size: 18px;
+    margin-top: -35px;
+}
