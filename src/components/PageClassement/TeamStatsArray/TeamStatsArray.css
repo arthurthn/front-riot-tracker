@@ -10,27 +10,38 @@
     box-sizing: border-box;
     backdrop-filter: blur(50px);    
     border-radius: 25px;
-    height: 544px;
+    height: 555px;
+}
+
+.arrayBigCriteria
+{
+    display: flex;
+    margin-left: 221px;
+    width: 67%;  
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.arrayBigCriteria 
+{
+    justify-content: space-between;
 }
 
 .arrayCriterias
 {
     display: flex;
-    margin-top: 10px;
-    margin-left: 221px;
     justify-content: space-between;
     width: 555px;
-    color: #ffffff;
-    text-transform: uppercase;
 }
 
-.arrayCriterias span
+.arrayBigCriteria span
 {
-    display: flex;
-
     font-weight: 600;
     font-size: 24px;
 }
-.arrayCriterias .firstCriteria
+
+.rankedStatsDiv
 {
+    margin-top: 10px;
 }

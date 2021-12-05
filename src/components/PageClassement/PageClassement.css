@@ -3,6 +3,7 @@
     top: -100px;
     left: -600px;
     width: 170vw;
+    -webkit-filter: blur(3px);
 }
 
 .containerStandings
