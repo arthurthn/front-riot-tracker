@@ -12,8 +12,8 @@ import MostPlayedChampions from './MostPlayedChampions/MostPlayedChampions';
 function pagestats() {
     return (
         <div className="background-image">
-            <img src={backgroundImg} className="background-image"/>
-            <div className="gradient"></div>
+            <img src={backgroundImg} className="background-image backgroundStats"/>
+            <div className="gradient lighterGradient"></div>
             <div className="user">
                 <img src={mainPic} className = "mainPic"/>
                 <div className="usernameText">Kimiri The Best</div>
