@@ -15,6 +15,8 @@ function pageclassement() {
                     <UserProfile />
                     <TeamStatAboveArray />
                     <TeamStatsArray />
+                    <TeamStatAboveArray />
+                    <TeamStatsArray />
                 </div>
             </div>
         </div>

@@ -13,6 +13,7 @@ body {
     left : 0;
     background-color: #00000060;
     backdrop-filter: blur(10px);
+    z-index: 1;
 }
 
 .menuGeneral
