@@ -19,7 +19,7 @@ function RegisterPage() {
                         <p className="inscriptionTitle">Inscris-toi sur<span className="huntEye">HuntEye</span></p>
                         {/* LINK CONNECTE TOI */}
                         <span>Déjà un membre ?
-                            <Link to="/login">
+                            <Link to="/login" className="bigLink">
                                 <span className="logInLink">
                                     Connecte-toi
                                 </span>

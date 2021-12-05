@@ -72,3 +72,8 @@
     color: #00B6CF;
     font-size: 18px;
 }
+
+.bigLink
+{
+    text-decoration: none;
+}
