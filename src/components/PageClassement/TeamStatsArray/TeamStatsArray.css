@@ -45,3 +45,8 @@
 {
     margin-top: 10px;
 }
+
+.rankedStatsDiv >:nth-child(2n)
+{
+    background: none;
+}
