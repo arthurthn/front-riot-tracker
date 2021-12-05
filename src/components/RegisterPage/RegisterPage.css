@@ -37,10 +37,6 @@
     width: 441px;
 }
 
-.registerArea
-{
-}
-
 .textRegisterAbove
 {
     display: flex;
@@ -49,6 +45,7 @@
 
 .textRegisterAbove > span
 {
+    margin-top: -40px;
     font-size: 18px;
     color: #888888;
 }
@@ -58,7 +55,7 @@
     color: #ffffff;
     font-size: 40px;
     font-weight: 700;
-    line-height: 0px;
+    margin-top: -5px;
 }
 
 .huntEye
@@ -70,6 +67,7 @@
 
 .logInLink
 {
+    text-decoration: none;
     margin-left: 4px;
     color: #00B6CF;
     font-size: 18px;

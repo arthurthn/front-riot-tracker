@@ -33,7 +33,9 @@ function Header() {
                 <Link to="/register">
                     <button className="ButtonInscription">Inscription</button>
                 </Link>
+                <Link to="/login">
                         <button className="ButtonConnexion">Connexion</button>
+                </Link>
                 </div>
             </div> 
         </div>

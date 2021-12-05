@@ -8,6 +8,7 @@ import PageClassement from '../PageClassement/PageClassement'
 import PageConseils from '../PageConseils/PageConseils'
 import PageAbout from '../PageAbout/PageAbout'
 import RegisterPage from '../RegisterPage/RegisterPage'
+import LogInPage from '../LogInPage/LogInPage'
 
 class App extends Component {
 render(){ 
@@ -22,6 +23,7 @@ render(){
         <Route path = "/conseils" element= {<PageConseils/>}/>
         <Route path = "/about" element= {<PageAbout/>}/>
         <Route path = "/register" element= {<RegisterPage/>}/>
+        <Route path = "/login" element= {<LogInPage/>}/>
       </Routes>
     </Router>
     </div>
