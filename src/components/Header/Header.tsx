@@ -2,38 +2,42 @@ import React from 'react';
 import './Header.css'
 import '../Pages/StatePage/index'
 import Logo from '../assets/logo/logo_bleu_complet.png'
-import {BrowserRouter as  Router ,  Route } from 'react-router-dom';
+import {BrowserRouter as Router, Routes,Route,Link} from "react-router-dom";
+
 
 function Header() {
     return (
         <Router>
         <div className="container">
             <div className="menuGeneral">
-                <img src={Logo} alt="Logo"/> 
+                <Link to="/"><img src={Logo}/></Link> 
                 <div className="menuList">
                     <ul>
                         <li>
-                            
-                            <a href="#"><span>Accueil</span></a>
+                            <Link to="/"><span>Accueil</span></Link>
                         </li>
                         <li>
-                            <a href="#">Classement</a>
+                            <Link to="/classement">Classement</Link>
                         </li>
                         <li>
-                            <a href="#">Statistiques</a>
+                            <Link to="/statistiques">Statistiques</Link>
                         </li>
                         <li>
-                            <a href="#">Conseils</a>
+                            <Link to="/conseils">Conseils</Link>
                         </li>
                         <li>
-                            <a href="#">À propos</a>
+                            <Link to="/about">À propos</Link>
                         </li>
                     </ul>
                     
                 </div>
                 <div className="menuButtons">
-                        <button className="ButtonInscription">Inscription</button>
+                <Link to="/register">
+                    <button className="ButtonInscription">Inscription</button>
+                </Link>
+                <Link to="/login">
                         <button className="ButtonConnexion">Connexion</button>
+                </Link>
                 </div>
             </div> 
         </div>

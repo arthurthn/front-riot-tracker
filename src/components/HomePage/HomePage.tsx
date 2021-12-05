@@ -1,20 +1,22 @@
-import React  from 'react'
-import './style.css';
-import SearchBar from './SearchBar';
+import React , { useState }  from 'react';
+import './HomePage.css';
 import backgroundImg from '../assets/images/page_accueil.jpg';
 import riotSVG from '../assets/images/riotGameSVG.svg';
+import SearchBar from './SearchBar/SearchBar';
 
 
-function Body() {
+
+
+function Homepage() {
     return (
         <div className="background">
-            <img src={backgroundImg} className="background-image"/>
-            <div className="gradient"></div>
+            <img src={backgroundImg} className="background-image backgroundHomePage"/>
+            <div className="gradient lighterGradient"></div>
             <div className = "bodyContainer">
                 <div className="mainMessage">
                   Show the world your <span>League of Legends skills</span>
                 </div>
-                <SearchBar />
+                <SearchBar/>
                 <div className="line">
                 </div>
                 <div className="line secondLine">
@@ -36,4 +38,4 @@ function Body() {
 }
 
 
-export default Body;
+export default Homepage;

@@ -1,0 +1,52 @@
+.teamStats
+{
+    display: flex;
+}
+
+.aboveTheBox
+{
+    display: flex;
+    color: #ffffff;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 44px;
+}
+
+.leftSide
+{
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.rightSide
+{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    font-weight: 600;
+}
+
+.circleDark
+{
+    display: flex;
+    justify-content: center;
+    height: 41px;
+    width: 41px;
+    background-color: #00000050;
+    border-radius: 50%;
+}
+.imgRightSide
+{
+    display: flex;
+    width: 18px;
+}
+
+.rightSideText
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+    font-size: 18px;
+}

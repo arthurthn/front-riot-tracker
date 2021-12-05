@@ -6,22 +6,30 @@ body {
 
 .container
 {
-    width: 100vw;
+    width: 100%;
     padding: 10px 0;
     position : fixed;
     top : 0;
     left : 0;
+    background-color: #00000060;
+    backdrop-filter: blur(10px);
+    z-index: 1;
 }
 
 .menuGeneral
 {
     display: flex;
-    height: 62px;
-    margin-left: 4.17vw;
+    margin-left: 60px;
 }
+
+.menuGeneral img
+{
+    height: 62px;
+}
+
 .menuList
 {
-  width: 45vw;
+  width: 47.5%;
   margin: 0;
   line-height: 80px;
 }
@@ -53,7 +61,7 @@ body {
 .menuButtons
 {
     margin-top: 18px;
-    margin-left: 7vw;
+    margin-left: 6%;
 }
 
 .menuButtons button

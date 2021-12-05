@@ -1,0 +1,107 @@
+
+.mostPlayedChampions
+{
+    margin-top: 26px;
+    margin-left: 30px;
+}
+
+.boxTitle
+{
+    text-transform: uppercase;
+}
+
+.boxMostPlayedChampions
+{
+    width: 550px;
+    height: 259px;
+}
+
+.boxMostPlayedChampions > img
+{
+    margin-top: 6%;
+    height: 200px;
+}
+
+.imgContainerMostPlayed
+{
+    display: flex;
+    justify-content: space-around;
+    width: 420px;
+    margin: 0 auto;
+}
+
+.championImage
+{
+    margin-top: 20px;
+}
+
+.aatrox
+{
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+    margin-top: 20px;
+}
+
+.imgLeftPlayedChampion
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.imgPlayedChampion > span
+{
+    display: flex;
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 5px;
+    justify-content: center;
+}
+
+.textMostPlayed span
+{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: #838384;
+    margin-left: 5px;
+}
+
+.garen
+{
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 80px;
+}
+
+.ChampionImage
+{
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    margin-top: 15px;
+}
+
+.middleChampionImage
+{
+    margin-top: 0;
+    width: 90px;
+}
+
+.imgNumberOfTrophies
+{
+    width: 16px;
+}
+
+.mainTrophy
+{
+    width: 500px;
+}
+
+.trophySystem
+{
+    display: flex;
+    justify-content: center;
+}
+

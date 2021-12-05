@@ -1,0 +1,61 @@
+.backgroundStats
+{
+    top: 0;
+    left: 0;
+    width: 120%;
+}
+
+.containerComponent
+{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.row
+{
+    display: flex;
+}
+
+.user
+{
+    margin-top: 170px;
+    color: #ffffff;
+    width: 800px;
+}
+
+.mainPic
+{
+    width: 104px;
+    float: left;
+    padding-left: 70px;
+}
+
+.usernameText
+{
+    font-size: 60px;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 200px;
+}
+
+.userLevel
+{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -20px; 
+    margin-left: 205px;
+}
+
+.userLevel span
+{
+    font-weight: 700;
+}
+
+
+
+
+
+

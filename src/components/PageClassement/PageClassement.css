@@ -1,0 +1,23 @@
+.background-standings
+{
+    top: -100px;
+    left: -600px;
+    width: 170%;
+    -webkit-filter: blur(3px);
+}
+
+.containerStandings
+{
+    display: flex;
+    margin: 0 auto;
+}
+
+
+.contained
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 134px;
+    width: 1240px;
+    height: 106px;
+}

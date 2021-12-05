@@ -1,36 +1,41 @@
-body
-{
-    overflow: hidden;
-}
 .background-image
 {
-    z-index: -1;
+    z-index: -2;
     position: absolute;
+}
+
+.backgroundHomePage
+{
     top: 0;
     left: 0;
-    width: 100vw;
+    width: 100%;
 }
+
 
 .gradient{
-    width: 100vw;
-    height: 100vh;
     position: absolute;
-    top: 0;
-    left: 0;
     z-index: -1;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 8.62%, rgba(0, 0, 0, 0.3) 59.66%), linear-gradient(180deg, rgba(0, 0, 0, 0) 8.62%, rgba(0, 0, 0, 0.85) 100%);
 }
 
+.lighterGradient
+{
+    top: 0;
+    left: 0;
+    width: 1440px;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 8.62%, rgba(0, 0, 0, 0.3) 59.66%), linear-gradient(180deg, rgba(0, 0, 0, 0) 8.62%, rgba(0, 0, 0, 0.85) 100%);
+}
 .bodyContainer
 {
+    text-align: center;
     width: 800px;
     margin: 0 auto;
 }
 
 .mainMessage
 {
-    margin-top: 28vh;
-    font-size: 4.25vw;
+    margin-top: 240px;
+    font-size: 60px;
     font-weight: 800;
     color: #ffffff;
 }
@@ -42,58 +47,58 @@ body
 .line
 {
     display: inline-flex;
-    margin-top: 4vh;
-    width: 10vw;
+    margin-top: 35px;
+    width: 170px;
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .secondLine
 {
-    margin-left: 4vw;
+    margin-left: 50px;
 }
 
 
 .buttonOr
 {
     color: #ffffff;
-    margin-top: -2.6vh;
+    margin-top: -22px;
 }
 
 .riotMenu
 {
-    width: 1.2vw;
+    width: 16px;
 }
 
 .buttonSignIn
 {
-    width: 30vw;
+    width: 456px;
     margin: 0 auto;
-    margin-top: 2vh;
+    margin-top: 20px;
     background: #00E0FF30;
     border-radius: 17px;
-    padding: 1.2vh 0;
+    padding: 10px 0;
 }
 
 .buttonSignIn span
 {
-    font-size: 1.2vw;
+    font-size: 18px;
     font-weight: 600;
     color: #ffffff;
-    padding-left: 0.7vw;
+    padding-left: 10px;
 }
 
 .apostrophe
 {
-    font-size: 0.8vw;
+    font-size: 10px;
     color: #ffffff;
 }
 
 .numberOfPlayersTracked
 {
-    margin-top: 5vh;
+    margin-top: 40px;
     color: #ffffff;
     font-weight: 400;
-    font-size: 2vw;
+    font-size: 32px;
 }
 
 .numberOfPlayersTracked span 

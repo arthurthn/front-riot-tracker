@@ -1,0 +1,38 @@
+.barRatioContainer
+{
+    position: relative;
+    border-radius: 200px;
+    height: 20px;
+    width: 220px;
+    background-color: #360CAE;
+}
+
+.winPercentage
+{
+    border-radius: 200px;
+    height: 100%;
+    background-color: #00B6CF;
+    width: 56%;
+}
+
+.barRatioContainer::after 
+{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    content: "V";
+    color: #ffffff;;
+    transform: translateY(-50%);
+    font-weight: 700;
+}
+
+.barRatioContainer::before 
+{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    content: "D";
+    color: #ffffff;
+    transform: translateY(-50%);
+    font-weight: 700;
+}

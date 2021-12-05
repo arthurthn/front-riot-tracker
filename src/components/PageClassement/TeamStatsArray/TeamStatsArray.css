@@ -1,0 +1,52 @@
+.arrayContainer
+{
+    width: 100%;
+}
+
+.arrayStats
+{
+    background: rgba(23, 31, 77, 0.5);
+    border: 1.5px solid rgba(160, 144, 176, 0.4);
+    box-sizing: border-box;
+    backdrop-filter: blur(50px);    
+    border-radius: 25px;
+    height: 555px;
+}
+
+.arrayBigCriteria
+{
+    display: flex;
+    margin-left: 221px;
+    width: 67%;  
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.arrayBigCriteria 
+{
+    justify-content: space-between;
+}
+
+.arrayCriterias
+{
+    display: flex;
+    justify-content: space-between;
+    width: 555px;
+}
+
+.arrayBigCriteria span
+{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.rankedStatsDiv
+{
+    margin-top: 10px;
+}
+
+.rankedStatsDiv >:nth-child(2n)
+{
+    background: none;
+}
