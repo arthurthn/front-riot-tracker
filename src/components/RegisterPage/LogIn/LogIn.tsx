@@ -12,11 +12,6 @@ function LogIn() {
             <div className="pseudoForm">
                 <input type="username" placeholder= "Password123!"/>
             </div>
-            <div className="inscriptionDiv">
-                <button className="inscriptionButton">
-                    Inscription
-                </button>
-            </div>
         </div>
     )
 }

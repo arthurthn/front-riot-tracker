@@ -26,8 +26,12 @@ function RegisterPage() {
                             </Link>
                         </span>
                         <LogIn />
+                        <div className="inscriptionDiv">
+                            <button className="inscriptionButton">
+                                S'inscrire
+                            </button>
+                         </div>
                     </div>
-                    
                 </div>
             </div>
         </div>
