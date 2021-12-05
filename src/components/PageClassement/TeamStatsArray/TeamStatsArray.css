@@ -1,0 +1,36 @@
+.arrayContainer
+{
+    width: 100%;
+}
+
+.arrayStats
+{
+    background: rgba(23, 31, 77, 0.5);
+    border: 1.5px solid rgba(160, 144, 176, 0.4);
+    box-sizing: border-box;
+    backdrop-filter: blur(50px);    
+    border-radius: 25px;
+    height: 544px;
+}
+
+.arrayCriterias
+{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 221px;
+    justify-content: space-between;
+    width: 555px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.arrayCriterias span
+{
+    display: flex;
+
+    font-weight: 600;
+    font-size: 24px;
+}
+.arrayCriterias .firstCriteria
+{
+}

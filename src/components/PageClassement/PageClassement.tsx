@@ -3,6 +3,7 @@ import backgroundImg from '../assets/images/background_stats.jpg';
 import './PageClassement.css';
 import UserProfile from './UserProfile/UserProfile';
 import TeamStatAboveArray from './TeamStatAboveArray/TeamStatAboveArray'
+import TeamStatsArray from './TeamStatsArray/TeamStatsArray'
 
 function pageclassement() {
     return (
@@ -13,6 +14,7 @@ function pageclassement() {
                 <div className="contained">
                     <UserProfile />
                     <TeamStatAboveArray />
+                    <TeamStatsArray />
                 </div>
             </div>
         </div>
