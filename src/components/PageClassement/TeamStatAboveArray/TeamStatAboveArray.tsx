@@ -12,7 +12,7 @@ function TeamStatAboveArray() {
             <div className="aboveTheBox">
                 <div className="leftSide">
                     Equipe Bleue
-                </div>
+                </div> 
                 <div className="rightSide">
                     <span className="circleDark">
                         <img src={moneyBag} className="imgRightSide"/>
