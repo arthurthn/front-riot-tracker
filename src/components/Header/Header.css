@@ -19,9 +19,14 @@ body {
 .menuGeneral
 {
     display: flex;
-    height: 62px;
     margin-left: 60px;
 }
+
+.menuGeneral img
+{
+    height: 62px;
+}
+
 .menuList
 {
   width: 47.5%;

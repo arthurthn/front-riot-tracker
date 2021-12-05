@@ -1,0 +1,76 @@
+.backgroundRegister
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #070707;
+}
+
+
+.containerRegister
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+
+.imageAndRegister
+{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.blueBlur
+{
+    position: absolute;
+}
+
+.marksmanPng
+{
+    position: relative;
+    width: 441px;
+}
+
+.registerArea
+{
+}
+
+.textRegisterAbove
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.textRegisterAbove > span
+{
+    font-size: 18px;
+    color: #888888;
+}
+
+.inscriptionTitle
+{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 0px;
+}
+
+.huntEye
+{
+    margin-left: 8px;
+    font-size: 40px;
+    color: #00B6CF;
+}
+
+.logInLink
+{
+    margin-left: 4px;
+    color: #00B6CF;
+    font-size: 18px;
+}

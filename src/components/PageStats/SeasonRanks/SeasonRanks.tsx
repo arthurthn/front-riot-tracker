@@ -8,7 +8,7 @@ function SeasonRanks() {
         <div className="containerPage">
             <div className="seasonRankContainer">
                 <span className= "boxTitle">
-                    RANG DE LA SAISON
+                    rang de la saison
                 </span>
                 <div className="box">
                     <div className="darkBox championBox">
