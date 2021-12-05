@@ -7,7 +7,6 @@ import {BrowserRouter as Router, Routes,Route,Link} from "react-router-dom";
 
 function Header() {
     return (
-        <Router>
         <div className="container">
             <div className="menuGeneral">
                 <Link to="/"><img src={Logo}/></Link> 
@@ -41,7 +40,6 @@ function Header() {
                 </div>
             </div> 
         </div>
-        </Router>
 
     );
 }
