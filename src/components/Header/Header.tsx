@@ -16,16 +16,13 @@ function Header() {
                             <Link to="/"><span>Accueil</span></Link>
                         </li>
                         <li>
-                            <Link to="/classement">Classement</Link>
+                            <Link to="/"><span>Statistiques</span></Link>
                         </li>
                         <li>
-                            <Link to="/statistiques">Statistiques</Link>
+                            <Link to="/"><span>A propos</span></Link>
                         </li>
                         <li>
-                            <Link to="/conseils">Conseils</Link>
-                        </li>
-                        <li>
-                            <Link to="/about">À propos</Link>
+                            <Link to="/"><span>Classement</span></Link>
                         </li>
                     </ul>
                     

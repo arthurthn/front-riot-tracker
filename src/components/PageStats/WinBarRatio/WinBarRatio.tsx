@@ -1,10 +1,10 @@
 import React from 'react';
 import './WinBarRatio.css'
 
-function WinBarRatio() {
+function WinBarRatio({winRatio}) {
     return (
         <div className="barRatioContainer">
-            <div className="winPercentage">
+            <div className="winPercentage" style={{width : `${winRatio}%`}}>
             
             </div>
         </div>

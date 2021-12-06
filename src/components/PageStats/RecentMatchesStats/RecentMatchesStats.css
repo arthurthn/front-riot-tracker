@@ -1,31 +1,43 @@
-.containerRecentMatches
+.containerRecentMatch
 {
     display: flex;
-    height: 80px;
-    width: 100%;
+    flex-direction: column;
+    width: 50%;
 }
 
 .containWidth
 {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     flex-direction: row;
-    margin-top: 15px;
-    margin-left: 25px;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.containWidth:nth-child(2n){
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+}
+
+.champion-img{
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #AC904D;
 }
 
 .differentArrays
 {
     display: flex;
     flex-direction: column;
-    margin-top: 2px;
-    margin-left: 55px;
+    justify-content: space-between;
 }
 
 .aramTitle
 {
     color: #ffffff;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -34,7 +46,9 @@
     text-align: center;
     line-height: 12px;
     color: #A090B0;
-    font-weight: 600;
+    font-weight: 300;
+    font-size: 12px;
+    min-width: 100px;
 }
 
 .row > img

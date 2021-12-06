@@ -3,7 +3,8 @@ import {BrowserRouter as Router, Routes,Route,Link} from "react-router-dom";
 import './RegisterPage.css';
 import marksman from '../assets/images/marksman.png';
 import blueBlur from '../assets/images/blueBlur.png';
-import LogIn from './LogIn/LogIn';
+// import LogIn from '../LogInPage/LogIn/LogIn';
+import RegisterForm from '../RegisterPage/Register/RegisterForm'
 
 function RegisterPage() {
     return (
@@ -25,12 +26,7 @@ function RegisterPage() {
                                 </span>
                             </Link>
                         </span>
-                        <LogIn />
-                        <div className="inscriptionDiv">
-                            <button className="inscriptionButton">
-                                S'inscrire
-                            </button>
-                         </div>
+                        <RegisterForm />
                     </div>
                 </div>
             </div>

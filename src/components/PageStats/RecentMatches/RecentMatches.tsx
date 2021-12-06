@@ -2,18 +2,16 @@ import React from 'react';
 import './RecentMatches.css'
 import RecentMatchesStats from '../RecentMatchesStats/RecentMatchesStats'
 
-function RecentMatches() {
+function RecentMatches({matchHistory}) {
+    console.log(matchHistory)
     return(
         <div className="containerRecentMatch">
             <span className="boxTitle titleRecentMatches">Match recent</span>
                 <div className="boxRecentMatches">
-                    <RecentMatchesStats />
-                    <RecentMatchesStats />
-                    <RecentMatchesStats />
-                    <RecentMatchesStats />
-                    <RecentMatchesStats />
-                    <RecentMatchesStats />
-                    <RecentMatchesStats />
+                    {matchHistory.map((match, index)=>{
+
+                        return <RecentMatchesStats match={match} key={index}/>
+                    })}
                 </div>
         </div>
     )

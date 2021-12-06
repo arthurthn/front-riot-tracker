@@ -4,9 +4,7 @@ import {BrowserRouter as Router, Routes,Route} from "react-router-dom";
 import Homepage from '../HomePage/HomePage'
 import Header from '../Header/Header'
 import PageStats from '../PageStats/PageStats'
-import PageClassement from '../PageClassement/PageClassement'
-import PageConseils from '../PageConseils/PageConseils'
-import PageAbout from '../PageAbout/PageAbout'
+import GameDetails from '../GameDetails/GameDetails'
 import RegisterPage from '../RegisterPage/RegisterPage'
 import LogInPage from '../LogInPage/LogInPage'
 
@@ -18,10 +16,8 @@ render(){
     <Header/>
       <Routes>
         <Route path = "/" element= {<Homepage/>}/>
-        <Route path = "/classement" element= {<PageClassement/>}/>
-        <Route path = "/statistiques" element= {<PageStats/>}/>
-        <Route path = "/conseils" element= {<PageConseils/>}/>
-        <Route path = "/about" element= {<PageAbout/>}/>
+        <Route path = "/game-details/:gameId" element= {<GameDetails/>}/>
+        <Route path = "/statistiques/:summonerName" element= {<PageStats/>}/>
         <Route path = "/register" element= {<RegisterPage/>}/>
         <Route path = "/login" element= {<LogInPage/>}/>
       </Routes>

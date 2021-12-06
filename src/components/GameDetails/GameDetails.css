@@ -1,8 +1,10 @@
 .background-standings
 {
-    top: -100px;
-    left: -600px;
-    width: 170%;
+    min-height: 99%;
+    max-height: 99%;
+    top: -0;
+    left: -0;
+    width: 100%;
     -webkit-filter: blur(3px);
 }
 

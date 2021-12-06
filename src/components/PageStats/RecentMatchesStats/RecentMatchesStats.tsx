@@ -1,47 +1,49 @@
 import React from 'react';
 import './RecentMatchesStats.css';
-import Aatrox from '../../assets/images/Aatrox.png';
-import image6 from '../../assets/images/image6.png';
-import image7 from '../../assets/images/image7.png';
-import image8 from '../../assets/images/image8.png';
-import image9 from '../../assets/images/image9.png';
-import image10 from '../../assets/images/image10.png';
-import image11 from '../../assets/images/image11.png';
+import Item from '../../Item'
+import {Link} from 'react-router-dom'
 
-function RecentMatchesStats() {
+function RecentMatchesStats({match}) {
+    console.log(match)
+    function msToTime(s) {
+        // let ms = duration.toString()
+        const secondes = Math.floor(((s / 60) % 1 ) * 60)
+        const minutes = (s / 60) - ((s / 60) % 1 )
+        const hours = minutes / 60 < 1 ? 0 : Math.floor(minutes / 60)
+        console.log(secondes, minutes, hours)
+        return `${hours > 1 ? `${hours}:` : ''}${minutes}:${secondes}`
+      }
     return (
-        <div className="containerRecentMatches">
-            <div className="containWidth">
-                <img src={Aatrox}/>
+            <Link to={`/game-details/${match.gameId}`} className="containWidth">
+                <img className="champion-img" src={`http://ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/${match.championName}.png`}/>
                 <div className="differentArrays">
-                    <span className="aramTitle">ARAM</span>
-                    <span className="detailedRecentMatch">10/12/2021</span>
+                    <span className="aramTitle">{match.gameMode}</span>
+                    <span className="detailedRecentMatch">{new Date(match.gameDate).toLocaleString('fr-FR', { year: 'numeric', month: 'numeric', day: 'numeric' })}</span>
                 </div>
                 <div className="differentArrays">
-                    <span className="aramTitle">14/13/19</span>
-                    <span className="detailedRecentMatch">2.54 KDA</span>
+                    <span className="aramTitle">{match.kills}/{match.deaths}/{match.assists}</span>
+                    <span className="detailedRecentMatch">{Math.round(((match.kills + match.assists) / match.deaths ) * 100) / 100} KDA</span>
                 </div>
                 <div className="differentArrays">
                     <div className="row row1">
-                        <img src={image6}/>
-                        <img src={image7}/>
-                        <img src={image8}/>
+                        {match.item1 ? <Item item={match.item1} size={30}/> : null}
+                        {match.item2 ? <Item item={match.item2} size={30}/> : null}
+                        {match.item3 ? <Item item={match.item3} size={30}/> : null}
                     </div>
                     <div className="row row2">
-                        <img src={image9}/>
-                        <img src={image10}/>
-                        <img src={image11}/>
+                        {match.item4 ? <Item item={match.item4} size={30}/> : null}
+                        {match.item5 ? <Item item={match.item5} size={30}/> : null}
+                        {match.item6 ? <Item item={match.item6} size={30}/> : null}
                     </div>
                 </div>
                 <div className="differentArrays">
                     <div className="winOrLossStat">
-                        <span className="victoryStat">Victory</span>
-                        <span>33 : 45</span>
+                        <span className="victoryStat" style={{ color : !match.win ? "red" : '#00B6CF'}}>{match.win ? "Victory" : 'Defeat'}</span>
+                        <span>{msToTime(match.gameDuration)}</span>
                         
                     </div>
                 </div>
-            </div>
-        </div>
+            </Link>
     )
 }
 
