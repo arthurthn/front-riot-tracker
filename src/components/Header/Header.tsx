@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css'
+import '../Pages/StatePage/index'
 import Logo from '../assets/logo/logo_bleu_complet.png'
 import {BrowserRouter as Router, Routes,Route,Link} from "react-router-dom";
 

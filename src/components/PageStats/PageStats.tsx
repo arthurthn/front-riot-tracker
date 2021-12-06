@@ -1,6 +1,7 @@
 import React, {useEffect, useState } from 'react';
 import { useParams, useHref } from 'react-router';
 import { useNavigate } from 'react-router';
+import React, {  useEffect, useState } from 'react';
 import './PageStats.css';
 import backgroundImg from '../assets/images/background_stats.jpg';
 import mainPic from '../assets/images/avatarMainPic.png';
