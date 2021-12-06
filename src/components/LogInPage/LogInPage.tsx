@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './LogInPage.css';
 import mage from './../assets/images/mage.png';
 import blueBlur from '../assets/images/blueBlur.png';
-import LogIn from '../RegisterPage/LogIn/LogIn'
+import LoginForm from './LogIn/LoginForm';
+import {Link} from "react-router-dom"
 
 
 function LogInPage() {
+
+
+
     return (
         <div className="backgroundRegister">
             <div className="containerRegister">
@@ -17,18 +21,16 @@ function LogInPage() {
                         <div className="columnSignIn">
                             <span>Re-Bienvenue</span>
                             <p className="inscriptionTitle">Connecte-toi sur<span className="huntEye">HuntEye</span></p>
-                            <span>Pas de compte?<span className="logInLink">Inscris-toi</span></span>
+                            <Link to="/register">Pas de compte?<span className="logInLink">Inscris-toi</span></Link>
                         </div>
-                        <LogIn />
-                        <div className="inscriptionDiv">
-                            <button className="inscriptionButton">
-                                Connexion
-                            </button>
-                        </div>
+                        <LoginForm />
+                        
                     </div>
                 </div>
             </div>
     )
 }
+
+
 
 export default LogInPage;

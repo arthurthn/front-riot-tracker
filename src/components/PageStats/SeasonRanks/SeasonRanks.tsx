@@ -17,7 +17,7 @@ function SeasonRanks({userDatas}) {
                     </div>
                     <div className="classSolo">
                         <span className="title">Classé solo</span>
-                        <span className="className">{userDatas.leagueData.tier}</span>
+                        <span className="className">{userDatas.leagueData.tier} {userDatas.leagueData.rank}</span>
                         <div className="winRecordSeason">
                             <span className="seasonWinStats">{userDatas.leagueData.leaguePoints} LP</span>
                             <span> / {userDatas.leagueData.wins}V {userDatas.leagueData.losses}D</span>
