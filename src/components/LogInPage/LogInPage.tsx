@@ -21,7 +21,7 @@ function LogInPage() {
                         <div className="columnSignIn">
                             <span>Re-Bienvenue</span>
                             <p className="inscriptionTitle">Connecte-toi sur<span className="huntEye">HuntEye</span></p>
-                            <Link to="/register">Pas de compte?<span className="logInLink">Inscris-toi</span></Link>
+                            <Link to="/register" className="signup-link">Pas de compte?<span className="logInLink">Inscris-toi</span></Link>
                         </div>
                         <LoginForm />
                         
