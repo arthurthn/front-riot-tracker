@@ -1,10 +1,6 @@
 import React, {useEffect, useState } from 'react';
 import { useParams, useHref } from 'react-router';
 import { useNavigate } from 'react-router';
-<<<<<<< HEAD
-=======
-import React, {  useEffect, useState } from 'react';
->>>>>>> a19a30ea4540313c702b72758e2e580b4de7a8e7
 import './PageStats.css';
 import backgroundImg from '../assets/images/background_stats.jpg';
 import mainPic from '../assets/images/avatarMainPic.png';
