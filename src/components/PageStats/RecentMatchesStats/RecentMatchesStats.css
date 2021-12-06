@@ -12,6 +12,7 @@
     justify-content: space-between;
     flex-direction: row;
     padding: 10px 10px;
+    text-decoration: none;
 }
 
 .containWidth:nth-child(2n){

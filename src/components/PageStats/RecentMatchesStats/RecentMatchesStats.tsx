@@ -1,6 +1,7 @@
 import React from 'react';
 import './RecentMatchesStats.css';
 import Item from '../../Item'
+import {Link} from 'react-router-dom'
 
 function RecentMatchesStats({match}) {
     console.log(match)
@@ -13,7 +14,7 @@ function RecentMatchesStats({match}) {
         return `${hours > 1 ? `${hours}:` : ''}${minutes}:${secondes}`
       }
     return (
-            <div className="containWidth">
+            <Link to={`/game-details/${match.gameId}`} className="containWidth">
                 <img className="champion-img" src={`http://ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/${match.championName}.png`}/>
                 <div className="differentArrays">
                     <span className="aramTitle">{match.gameMode}</span>
@@ -42,7 +43,7 @@ function RecentMatchesStats({match}) {
                         
                     </div>
                 </div>
-            </div>
+            </Link>
     )
 }
 

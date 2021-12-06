@@ -37,3 +37,12 @@ export const checkUserExist = async (summonerName: string) =>{
         console.error("error", error)
     }
 }
+
+export const getMatchDetails = async (gameId: string) =>{
+    try{
+        const res = await axios.get(`http://localhost:8080/game-details/${gameId}`)
+        return res.data
+    }catch(error){
+        console.error("error", error)
+    }
+}
