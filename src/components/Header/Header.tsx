@@ -10,23 +10,11 @@ function Header() {
             <div className="menuGeneral">
                 <Link to="/"><img src={Logo}/></Link> 
                 <div className="menuList">
-                    <ul>
+                    {/* <ul>
                         <li>
                             <Link to="/"><span>Accueil</span></Link>
                         </li>
-                        <li>
-                            <Link to="/classement">Classement</Link>
-                        </li>
-                        <li>
-                            <Link to="/statistiques">Statistiques</Link>
-                        </li>
-                        <li>
-                            <Link to="/conseils">Conseils</Link>
-                        </li>
-                        <li>
-                            <Link to="/about">À propos</Link>
-                        </li>
-                    </ul>
+                    </ul> */}
                     
                 </div>
                 <div className="menuButtons">

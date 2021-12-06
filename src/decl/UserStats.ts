@@ -1,3 +1,10 @@
+export type UserDatas = {
+    leagueData : LeagueData;
+    userData : UserData;
+    championsData : ChampionStats[]
+
+}
+
 export type LeagueData = {
     leagueId : string;
     queueType : string;

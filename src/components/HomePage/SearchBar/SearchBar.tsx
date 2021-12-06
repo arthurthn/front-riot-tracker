@@ -1,27 +1,25 @@
 import React, { useState } from 'react';
 import './SearchBar.css';
+import { useNavigate } from 'react-router';
 import WhiteEye from '../../assets/images/eye-white.png';
-
-const defaultFormData ={
-    pseudonyme:""
-  }
+import {checkUserExist} from '../../../api/index'
 
 // Stocker les infos
 function SearchBar() {
-    const [formData, setFormData] = useState(defaultFormData);
-    const {pseudonyme}=formData;
+    const [formData, setFormData] = useState('');
+
+    const navigate = useNavigate()
   
     const onChange =(e:React.ChangeEvent<HTMLInputElement>)=>{
-      setFormData((prevState: any)=>({
-        ...prevState,
-        [e.target.id]: e.target.value,
-      }));
+      setFormData(e.target.value);
     };
-    const onSubmit = (e:React.FormEvent<HTMLFormElement>)=>{
+    const onSubmit = async (e:React.FormEvent<HTMLFormElement>)=>{
       e.preventDefault();
       console.log(formData);
+      const res = await checkUserExist(formData)
+      if(res.exist) navigate(`/statistiques/${formData}`)
+      else console.log("error")
   
-      setFormData(defaultFormData);
     }
     return (
         <div className="interface">
@@ -29,7 +27,7 @@ function SearchBar() {
             <input 
             type="text"
             id="pseudonyme"
-            value={pseudonyme} onChange={onChange}
+            value={formData} onChange={onChange}
              placeholder="Psedonyme#EUW ..."
             className="searchUsername"/>
             <button className="buttonEntrer" type="submit">

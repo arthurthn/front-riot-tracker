@@ -8,6 +8,8 @@ import SearchBar from './SearchBar/SearchBar';
 
 
 function Homepage() {
+
+
     return (
         <div className="background">
             <img src={backgroundImg} className="background-image backgroundHomePage"/>

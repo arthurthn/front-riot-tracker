@@ -1,18 +1,22 @@
 .seasonLastGames
 {
     margin-left: 30px;
+    width: 60%;
+    margin-top: 20px;
 }
 
 .boxLastGames
 {
     display: flex;
-    width: 720px;
+    width: 100%;
     height: 180px;
     background: rgba(9, 8, 10, 0.5);
     border: 1px solid #4D4D4D;
     box-sizing: border-box;
+    padding: 10px;
     backdrop-filter: blur(50px);
     border-radius: 29px;
+    margin-top: 10px;
 }
 
 .darkerBox
@@ -24,28 +28,24 @@
 .laneDarkBox
 {
     display: flex;
-    margin-top: 10px;
-    margin-left: 10px;
-    width: 224px;
-    height: 90%;
+    width: clamp(300px, 30%, 400px);
+    height: 100%;
 }
 
 .winRateDarkBox
 {
     display: flex;
-    margin-top: 10px;
     margin-left: 10px;
     width: 40px;
-    height: 90%;
+    height: 100%;
 }
 
 .ChampionsWinRateDarkBox
 {
     display: flex;
-    margin-top: 10px;
     margin-left: 12px;
-    width: 408px;
-    height: 90%;
+    width: 100%;
+    height: 100%;
 }
 .topOrJungl
 {

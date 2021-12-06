@@ -3,34 +3,34 @@ import './SeasonRanks.css'
 import WinBarRatio from '../WinBarRatio/WinBarRatio'
 import ChallengerPic from '../../assets/images/challengerPic.png'
 
-function SeasonRanks() {
+function SeasonRanks({userDatas}) {
+    const winRatio = Math.round(userDatas.leagueData.wins/ (userDatas.leagueData.wins + userDatas.leagueData.losses) * 100)
     return (
-        <div className="containerPage">
             <div className="seasonRankContainer">
                 <span className= "boxTitle">
                     rang de la saison
                 </span>
                 <div className="box">
                     <div className="darkBox championBox">
-                        <img src={ChallengerPic}/>
+                        {/* <img src={`./rankEmblemes/Emblem_${userDatas.leagueData.tier}.png`}/> */}
+                        <img src={`/rankEmblemes/Emblem_${userDatas.leagueData.tier}.png`}/>
                     </div>
                     <div className="classSolo">
                         <span className="title">Classé solo</span>
-                        <span className="className">Challenger</span>
+                        <span className="className">{userDatas.leagueData.tier}</span>
                         <div className="winRecordSeason">
-                            <span className="seasonWinStats">1,416LP</span>
-                            <span> / 460V 360D</span>
+                            <span className="seasonWinStats">{userDatas.leagueData.leaguePoints} LP</span>
+                            <span> / {userDatas.leagueData.wins}V {userDatas.leagueData.losses}D</span>
                         </div>
                         <div className="winRatioText">
-                            <WinBarRatio />
+                            <WinBarRatio winRatio={winRatio}/>
                             <div className="winBarRatio">
-                                <span>56% </span>Win Ratio
+                                <span>{winRatio}% </span>Win Ratio
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     )
 }
 

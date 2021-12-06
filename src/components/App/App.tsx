@@ -18,10 +18,8 @@ render(){
     <Header/>
       <Routes>
         <Route path = "/" element= {<Homepage/>}/>
-        <Route path = "/classement" element= {<PageClassement/>}/>
-        <Route path = "/statistiques" element= {<PageStats/>}/>
-        <Route path = "/conseils" element= {<PageConseils/>}/>
-        <Route path = "/about" element= {<PageAbout/>}/>
+        <Route path = "/live-game/:gameId" element= {<PageClassement/>}/>
+        <Route path = "/statistiques/:summonerName" element= {<PageStats/>}/>
         <Route path = "/register" element= {<RegisterPage/>}/>
         <Route path = "/login" element= {<LogInPage/>}/>
       </Routes>

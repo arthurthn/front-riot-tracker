@@ -1,61 +1,72 @@
-.backgroundStats
-{
+.stats-container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
     top: 0;
     left: 0;
-    width: 120%;
 }
 
-.containerComponent
-{
+.bg-img{
+    min-height: 100%;
+    max-height: 100%;
+    width: 100%; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.gradient{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    width: 100%; 
+    background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 15%, rgba(0,0,0,0.4) 45%, rgba(0,0,0,0) 100%);
+}
+
+.content{
+    padding: 80px;
+    padding-top: 200px;
     display: flex;
     flex-direction: column;
-    width: 90%;
-    margin: 0 auto;
 }
 
-.row
-{
+.user-panel{
     display: flex;
+    align-items: center;
+}
+.user-profil-img{
+    width: 100px;
+    height: 100px;
+    background :red;
 }
 
-.user
-{
-    margin-top: 170px;
-    color: #ffffff;
-    width: 800px;
+.user-infos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
 }
 
-.mainPic
-{
-    width: 104px;
-    float: left;
-    padding-left: 70px;
-}
-
-.usernameText
-{
+.user-summoner-name{
+    font-weight: bold;
     font-size: 60px;
-    font-weight: 700;
-    text-align: left;
-    margin-left: 200px;
+    color:  #ffffff;
 }
 
-.userLevel
-{
-    text-align: left;
+.user-summoner-level{
+    color : #ffffff;
     font-size: 20px;
-    font-weight: 400;
-    margin-top: -20px; 
-    margin-left: 205px;
+    font-weight: 300;
 }
 
-.userLevel span
-{
+.user-summoner-level .level{
     font-weight: 700;
 }
 
-
-
-
-
-
+.row{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}

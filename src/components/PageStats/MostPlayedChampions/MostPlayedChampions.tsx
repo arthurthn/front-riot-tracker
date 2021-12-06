@@ -10,7 +10,11 @@ import sideChampionLine from '../../assets/images/sideChampionLine.png';
 import sideChampionLineRight from '../../assets/images/sideChampionLineRight.png';
 
 
-function MostPlayedChampions() {
+function MostPlayedChampions({userDatas}) {
+    console.log(userDatas.championsData)
+    userDatas.championsData.map((champion, index) =>{
+        console.log(champion, index)
+    })
     return (
         <div className="mostPlayedChampions">
             <div className="boxTitle titleMostPlayed">
@@ -19,36 +23,9 @@ function MostPlayedChampions() {
             <div className="box boxMostPlayedChampions">
                 <img src={sideChampionLine} />
                 <div className="imgContainerMostPlayed">
-                    <div className="imgPlayedChampion">
-                        <img src={Aatrox} className="championImage aatrox"/>
-                        <span>Aatrox</span>
-                        <div className="textMostPlayed">
-                            <img src={image26} className="ChampionImage"/>
-                            <div className="trophySystem">
-                                <img src={MaskGroup} className="imgNumberOfTrophies"/><span>38 220</span>
-                            </div>  
-                        </div>
-                    </div>
-                     <div className="imgPlayedChampion">
-                        <img src={garen} className="championImage garen"/>
-                        <span>Garen</span>
-                        <div className="textMostPlayed">
-                            <img src={image25} className="ChampionImage middleChampionImage"/>
-                            <div className="trophySystem">
-                                <img src={MaskGroup} className="imgNumberOfTrophies" /><span>20 140</span>
-                            </div>  
-                        </div>
-                     </div>
-                     <div className="imgPlayedChampion">
-                        <img src={LeeSin} className="championImage aatrox"/>
-                        <span>Lee Sin</span>
-                        <div className="textMostPlayed">
-                            <img src={image26} className="ChampionImage"/>
-                            <div className="trophySystem">
-                                <img src={MaskGroup} className="imgNumberOfTrophies"/><span>50 860</span>
-                            </div>  
-                        </div>
-                     </div>
+                    {userDatas.championsData.map((champion, index) =>{
+                        return <ChampionData champion={champion} key={index} size={index == 1 ? 1.3 : 1}/>
+                    })}
                 </div>
                 <img src={sideChampionLineRight}/>
             </div>
@@ -56,5 +33,19 @@ function MostPlayedChampions() {
     )
 }
 
+const ChampionData = ({champion, size}) =>{
+    return(
+        <div className="imgPlayedChampion">
+            <img src={`http://ddragon.leagueoflegends.com/cdn/11.23.1/img/champion/${champion.championName}.png`} style={{width : `${60 * size}px` }} className="championImage aatrox"/>
+            <span>{champion.championName}</span>
+            <div className="textMostPlayed">
+                <img src={image26}  style={{width : `${60 * size}px` }} className="ChampionImage"/>
+                <div className="trophySystem">
+                    <img src={MaskGroup} className="imgNumberOfTrophies"/><span>{champion.championPoints}</span>
+                </div>  
+            </div>
+        </div>
+    )
+}
 
 export default MostPlayedChampions;
